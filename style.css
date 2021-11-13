@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+    /* background-color: rgb(229, 233, 255); */
+    /* background-color: rgb(237, 240, 255); */
+    /* background-color: rgb(245, 246, 255); */
+    background-color: rgb(70, 70, 70);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#titulo{
+    color: rgb(0, 255, 128);
+    background-color: rgb(70, 70, 70);
+    margin: 0;
+    border: rgb(70, 70, 70) solid 15px;
+    font-size: 80px;
+    text-align: center;
+}
+
+.post{
+    background-color: White ;
+    border: 4px solid rgb(68, 0, 255);
+    width: 800px;
+    text-align: left;
+    /* margin: 20px; */
+    /* margin-bottom: 40px; */
+    border-radius: 10px;
+}
+
+footer{
+    background-color: rgba(70, 70, 70,1);
+    margin:0;
+    border: rgb(70, 70, 70) solid;
+    float: inline-start;
+    /* background-image: url(img/fondobody.png); */
+    /* background-size: 1000px; */
+}
+
+.letras{
+    margin: 10px;
+}
+
+.irarriba{
+    text-align: right;
+    border: springgreen solid 5px;
+    border-end-end-radius: 20px;
+    border-start-end-radius: 20px;
+    background-color: springgreen;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1rem;
+    
+    border-left: 10px springgreen solid;
+    border-right: 10px springgreen solid;
+}
+.irarriba:hover{
+    background-color: springgreen;
+    border: springgreen solid 5px;
+    color: rgb(0, 0, 0);
+    border-left: 10px springgreen solid;
+    border-right: 10px springgreen solid;
+    border-radius: 20px;
+    transition: 0.5s;
+
+}
+.copy{
+    color: rgb(168, 168, 168);
+}
+
+footer a:hover{
+    /* transition: 0.7s; */
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+}
+
+footer img:hover{
+    width: 80px;
+}
+
+.contactame{
+    font-size: 1.1rem;
+    color: white;
+}
+
+
+.hazclick{
+    font-size: 1.5rem;
+    color: white;
+
+    border-start-end-radius: 5px;
+    border-start-start-radius: 5px;
+
+    background-color: rgb(0, 4, 255);
+    display:block;
+    margin:0 auto 0 auto;
+    padding: 5px;
+    text-decoration: none;
+}
+.iraweb{
+    font-style: none;
+    color: rgb(70, 70, 70);
+}
+.registrarse{
+    font-size: 3rem;
+    margin-left: 1rem;
+}
+.esrapido{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+.nombre{
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    width: 360px;
+    height: 25px;
+    /* background-color: rgb(243, 243, 243); */
+    border-radius: 5px;
+    border: 3px solid rgb(0, 0, 0);
+    /* color: blue; */
+   
+}
+
+.apellido{
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    width: 360px;
+    height: 25px;
+    border-radius: 5px;
+    border: 3px solid rgb(0, 0, 0);
+
+
+
+}
+.correo{
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    /* width: 740px; */
+    width: 360px;
+    font-size: 1rem;
+    height: 25px;
+    border-radius: 5px;
+    border: 3px solid rgb(0, 0, 0);
+    font-size: 1.5rem;
+
+
+
+
+}
+.contraseña{
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 360px;
+    font-size: 1.5rem;
+    height: 25px;
+    border-radius: 5px;
+    border: 3px solid rgb(0, 0, 0);
+
+}
+.fecha{
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    width: 360px;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid rgb(0, 0, 0);
+
+
+}
+.fdn{
+    margin-left: 1.5rem;
+    font-size: 1rem;
+}
+.reset{
+    float: right;
+    font-size: 1.5rem;
+    border: rgb(97, 97, 97) solid 3px;
+    border-radius: 80px;
+    margin-top: 10px;
+    margin-right: 3px;
+    background-color: white;
+    color: rgb(97, 97, 97);
+    text-align: right;
+    
+}
+.reset:hover{
+    /* border: rgb(255, 255, 255) solid 5px; */
+    border-radius: 5px;
+    /* background-color: rgb(0, 4, 255); */
+    color: rgb(255, 255, 255);
+    border-color: blue;
+    background-color: blue;
+}
+.registrarte{
+    font-size: 1.8rem;
+    background-color: rgb(105, 105, 105);
+    color: rgb(255, 255, 255);
+    margin: 0.5rem;
+    border: rgb(105, 105, 105) solid 8px;
+    border-radius: 5px;
+    /* margin-bottom: 1rem;  */
+}
+.registrarte:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(17, 0, 255);
+    border-color: rgb(25, 0, 255);
+}
+.iniciarsesion{
+    text-decoration: none;
+    /* color: rgb(255, 0, 221);
+    margin-bottom: 1rem;
+    text-decoration: none; */
+}
+section{
+    background-image: url(img/fondobody.png);
+    background-size: 1000px;
+    margin: 0px;
+    background-color: white;
+}
+.imgladrillo{
+    float: right;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.sicontunuas{
+    margin-left: 100px;
+}

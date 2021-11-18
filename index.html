@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Registrarte</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/iconos/ladrillo.ico">
 </head>
 <body>
     <header>
@@ -19,18 +20,17 @@
             <input type="reset" class="reset" value="✖">
             <br><zz class="registrarse"><strong>Registrarte</strong></zz><br>
             <zz class="esrapido">Es rapido y facil.</zz><br><br>
-            <input type="text" placeholder="Nombre" class="nombre"><br>
-            <input type="text" placeholder="Apellido" class="apellido"><br>
-            <input type="email" placeholder="Correo Electronico" class="correo"><br>
-            <input type="password" placeholder="Nueva Contraseña" class="contraseña"><br>
-            <zz class="fdn">Fecha de nacimiento</zz><br>
-            <input type="date" class="fecha"><br><br>
-            
-            <center><p class="sicontinuas"><br>Si continúas, aceptas las <strong>Condiciones del servicio de Foxed</strong> y confirmas que has <br>leído nuestra <strong>Política de privacidad</strong></p></center>
-            <center><input type="button" value="REGISTRARTE" class="registrarte"></center><br>
+            <form method="post">
+                <input type="text" placeholder="Nombre" class="nombre" required><br>
+                <input type="text" placeholder="Apellido" class="apellido" required><br>
+                <input type="email" placeholder="Correo Electronico" class="correo" required><br>
+                <input type="password" placeholder="Nueva Contraseña" class="contraseña" required><br>
+                <zz class="fdn">Fecha de nacimiento</zz><br>
+                <input type="date" class="fecha" required><br><br>
+                <center><p class="sicontinuas"><br>Si continúas, aceptas las <strong>Condiciones del servicio de Foxed</strong> y confirmas que has <br>leído nuestra <strong>Política de privacidad</strong></p></center>
+                <center><input type="submit" value="REGISTRARTE" class="registrarte"></center><br>
+            </form>
             <center><ytt>¿Ya tienes una cuenta? </ytt><a href="https://jaenfigueroa.github.io/iniciar-sesion/" class="iniciarsesion">Inicia sesión</a></center><br>
-            
-
         </article>
         </center><br><br>
     </section>
